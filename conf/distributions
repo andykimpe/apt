@@ -4,7 +4,7 @@ Codename: precise
 Architectures: i386 amd64 source
 Components: main
 Description: My packages for Ubuntu Precise Pangolin (12.04)
-SignWith: repository@repository.mon-serveur.com
+SignWith: andykimpe@gmail.com
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Tracking: all includechanges keepsources
@@ -17,7 +17,7 @@ Codename: trusty
 Architectures: i386 amd64 source
 Components: main
 Description: My packages for Ubuntu Quantal Quetzal (12.10)
-SignWith: repository@repository.mon-serveur.com
+SignWith: andykimpe@gmail.com
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Tracking: all includechanges keepsources
@@ -30,7 +30,7 @@ Codename: xenial
 Architectures: i386 amd64 source
 Components: main
 Description: My packages for Ubuntu Raring Ringtail (13.04)
-SignWith: repository@repository.mon-serveur.com
+SignWith: andykimpe@gmail.com
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Tracking: all includechanges keepsources
@@ -43,7 +43,7 @@ Codename: bionic
 Architectures: i386 amd64 source
 Components: main
 Description: My packages for Ubuntu Saucy Salamander (13.10)
-SignWith: repository@repository.mon-serveur.com
+SignWith: andykimpe@gmail.com
 DebIndices: Packages Release . .gz .bz2
 DscIndices: Sources Release .gz .bz2
 Tracking: all includechanges keepsources
