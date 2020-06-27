@@ -1,0 +1,51 @@
+Suite: precise
+Version: 12.04
+Codename: precise
+Architectures: i386 amd64 source
+Components: main
+Description: My packages for Ubuntu Precise Pangolin (12.04)
+SignWith: repository@repository.mon-serveur.com
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Tracking: all includechanges keepsources
+Log: logfile
+  --changes /srv/reprepro/bin/build_sources
+
+Suite: trusty
+Version: 14.04
+Codename: trusty
+Architectures: i386 amd64 source
+Components: main
+Description: My packages for Ubuntu Quantal Quetzal (12.10)
+SignWith: repository@repository.mon-serveur.com
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Tracking: all includechanges keepsources
+Log: logfile
+  --changes /srv/reprepro/bin/build_sources
+
+Suite: xenial
+Version: 16.04
+Codename: xenial
+Architectures: i386 amd64 source
+Components: main
+Description: My packages for Ubuntu Raring Ringtail (13.04)
+SignWith: repository@repository.mon-serveur.com
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Tracking: all includechanges keepsources
+Log: logfile
+  --changes /srv/reprepro/bin/build_sources
+
+Suite: bionic
+Version: 18.04
+Codename: bionic
+Architectures: i386 amd64 source
+Components: main
+Description: My packages for Ubuntu Saucy Salamander (13.10)
+SignWith: repository@repository.mon-serveur.com
+DebIndices: Packages Release . .gz .bz2
+DscIndices: Sources Release .gz .bz2
+Tracking: all includechanges keepsources
+Log: logfile
+  --changes /srv/reprepro/bin/build_sources
